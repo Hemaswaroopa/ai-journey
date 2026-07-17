@@ -19,3 +19,20 @@ Learnings:
 7. Git- Tool lives in our computer. Its job is to take snapshots and save our work
 
 8. Git Hub- A website where we can showcase or save snapshots online and make it available to public/ recruiters to show case our work
+
+Day-2 - 17th July 2026:
+
+Learnings:
+
+1. Today we have pushed our code live in git hub
+
+2. We learned about git path init - add - commit - status
+
+3. git init  = start a new Git repository here; from now on, watch this folder and track its changes.
+
+4. git add = arrange people into the frame (get ready). git commit = press the shutter (snapshot actually taken)"-m" heps to add a message while saving the files
+
+5. git push = upload my saved snapshots from my computer up to GitHub (the internet). This is what makes my code public and lights up the green square.
+
+6. git status helps us to track the current status of files whether they have been added or not
+
