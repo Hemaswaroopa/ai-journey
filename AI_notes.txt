@@ -1,0 +1,21 @@
+Day-1 - 16th July 2026:
+
+Learnings:
+
+1. Print() shows things on screen. Strings means text go in " "; but numbers don't. both output looks identical but behave differently- numbers do math, strings just join
+
+    eg print("100"+"05")--- output: 10005 ->(String) whereas print(100+5) --- output: 105 -> (number)
+
+2. mkdir--- Make directory. Directory means folder in computer terminology. when we say mkdir we are saying computer to create a new folder with a name "AI journey"
+
+3. cd--- means change directory. we are asking computer to walk into that specific folder
+
+4. pwd--- print working directory. this helps when you are confused asking it show where am I standing currently
+
+5. dir-- directory. Basically it lists out what all is inside the folder
+
+6. While basically saving any file for computer to read it in python format we need to save file as .py
+
+7. Git- Tool lives in our computer. Its job is to take snapshots and save our work
+
+8. Git Hub- A website where we can showcase or save snapshots online and make it available to public/ recruiters to show case our work
