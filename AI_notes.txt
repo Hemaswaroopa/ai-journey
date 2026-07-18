@@ -36,3 +36,34 @@ Learnings:
 
 6. git status helps us to track the current status of files whether they have been added or not
 
+Day-3 - 18th July 2026
+
+Learnings:
+
+1. Today we started of with python 
+
+2. Variables: A variable is like a labelled box where you name an empty box with Sugar and store all the sugar and use it regularly when needed similarly in python we want to store some details under a box so we name it and call it as a variable.
+
+eg: name = Hema
+    age = 28
+    print (name)
+    print (age)
+
+    output: 
+    Hema
+    28
+
+3. Similarly not just names we can store numerics and also do some calculations as well 
+
+eg: birth_year = 1998
+current_year = 2026
+age = current_year - birth_year
+print (age)
+
+4. We can combine and print string and number together using "+" instead we can convert it to a string
+
+5. Use of f"my name is" before open quotes converts whole input to string called f-sting or formatted-string
+
+6. {} in f-steing replaces variable with its value eg: {name} become Hema in output
+
+7. Also we are building our 1st mini project "Personal intro card generator" refer to weekend_project1.py
