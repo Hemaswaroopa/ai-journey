@@ -67,3 +67,55 @@ print (age)
 6. {} in f-steing replaces variable with its value eg: {name} become Hema in output
 
 7. Also we are building our 1st mini project "Personal intro card generator" refer to weekend_project1.py
+
+Day-4: 19-07-2026
+
+Learnings:
+
+1. Today we learned about data types, lists and dictionaries
+
+2. Data types: String - text, Int - integer/ whole number, boolean- True/False, float- Decimals
+
+3. Lists - Lists similar to variables a labelled information but contains multiple data. Lists are represented with [ ] and separated by commas. In one box storing different information. the below numbers are positions of items in the lists and are called as indexes. Each of the item is printed using indexes. This is the main concern for list we need to know which item is placed at which position
+
+eg : cast = ["Prabhas", "Bahubali", "Rajamouli", "Rana", "Anushka"]
+                  0        1            2           3        4
+in Python print(cast[0]) - Output : Prabhas
+          print(cast[4]) - Output : Anushka
+
+-- To add a new item to list we use cast.append = "Keeravani"
+
+-- To identify number of items in list we use print(len(cast)) ** len -- gives length of the list
+
+4. Dictionaries - Dictionaries solve the major drawback of lists. This works on messy data as data is stored in format of labelled pairs. Dictionaries are represented by { }
+
+                                 Key (Label) : Value (Information)
+
+                                 Eg: student = {"name" : "Hema",
+                                                 "age" :  28,
+                                                 "group" : "AI Engineer" 
+                                                }
+                                     print(student)
+                                      print(student["age"])
+
+5. Nesting: In real AI data scenarios. Dictionaries are in dictionaries and lists are in dictionaries.  the exact pattern behind every AI API response
+
+Eg: ai_engineer = { "name" : "Hema",
+               "skills" : ["Python", "RAG", "Git", "LLM"],
+               "progress" : { 
+                   "days_completed" : 4,
+                   "current_topic" : "dictionaries"
+               }
+            }
+print(ai_engineer)
+print(ai_engineer["name"])
+print(ai_engineer["skills"][0])
+print(ai_engineer["progress"]["days_completed"])
+print(ai_engineer["progress"]["current_topic"])
+print(ai_engineer["skills"][3])
+
+ai_engineer["progress"] ["git"] = "started"
+print(ai_engineer["progress"])
+
+
+
