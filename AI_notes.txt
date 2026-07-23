@@ -117,5 +117,49 @@ print(ai_engineer["skills"][3])
 ai_engineer["progress"] ["git"] = "started"
 print(ai_engineer["progress"])
 
+Day-5: 20-07-2026
 
+Learnings:
 
+Tuples - A tuple is a list that can't be changed. Round brackets, locked once created.
+
+Set- A set is a collection with no duplicates and no order. Its superpower is removing duplicates automatically.
+
+Conditionals:
+
+* If condition - core idea is "If something is true, then do this."
+
+Eg: 
+
+age = 20
+
+if age >= 18:
+    print("You are an adult.")
+
+The colon : at the end of the if line. Required. It means "here comes the block of code to run if the condition is true."
+The indentation — see how print(...) is pushed in with spaces? This is critical in Python. The indented line is "what to do IF the condition is true." Python uses this spacing to know which code belongs to the if. (Most languages use brackets; Python uses indentation. Get used to it — it's fussy but powerful.)
+
+Operators:
+>= greater than or equal to
+<= less than or equal to
+> greater than
+< less than
+== equal to (TWO equals signs — this is a big one!)
+!= not equal to
+
+Day-6: 23-07-26
+
+Learnings
+
+else = "otherwise, do this instead." It's the fallback when the if condition is False.
+
+age = 15
+
+if age >= 18:
+    print("You are an adult.")
+else:
+    print("You are a minor.")
+
+elif (short for "else if") — for when there are MORE than two paths.Real decisions often have several branches, not just two. "If it's hot, wear shorts. Else if it's mild, wear a jacket. Else, wear a coat." Three paths. That's elif. Type this:
+
+**f-strings — one continuous string, curly braces, and you handled the nested-quote trap ({customer['name']}) correctly from the start. That was a fresh mistake last time; today you avoided it entirely. That's learning
