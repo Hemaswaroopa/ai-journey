@@ -60,7 +60,7 @@ current_year = 2026
 age = current_year - birth_year
 print (age)
 
-4. We can combine and print string and number together using "+" instead we can convert it to a string
+4. We cannot combine and print string and number together using "+" instead we can convert it to a string
 
 5. Use of f"my name is" before open quotes converts whole input to string called f-sting or formatted-string
 
@@ -163,3 +163,44 @@ else:
 elif (short for "else if") — for when there are MORE than two paths.Real decisions often have several branches, not just two. "If it's hot, wear shorts. Else if it's mild, wear a jacket. Else, wear a coat." Three paths. That's elif. Type this:
 
 **f-strings — one continuous string, curly braces, and you handled the nested-quote trap ({customer['name']}) correctly from the start. That was a fresh mistake last time; today you avoided it entirely. That's learning
+
+Day-7: 27-07-26
+Learnings
+
+Loops: We have learned loops today. when we have 1000 set of list and want to do any activity at one we use loops for those cases.
+#Loops- do this thing, once for every time
+#To print each skills we need to write print(skills[0]), print(skills[1]) 
+# to solve this we have loops
+Eg: 
+skills = ["Marketing", "AI", "Python","LLM", "n8n"]
+
+for anything in skills:
+    print(anything)
+
+#For Loop: # Decode: for - keyword to start loop. it means repeat of each
+#Skill/ anything - is basically a temporary box we are inventing. for each pass through loop python puts current item in the box
+# in skills- in the skills list you're going through
+#:- block the code intendentation - what to do on each pass
+
+#Looping in numbers through range()
+for number in  range(5):
+    print(number)
+
+#Looping through your dictionaries
+books = [
+    {"title" : "Love it", "author" : "Anudeep"},
+    {"title" : "She Killed him", "author" : "Sahithi"},
+    {"title" : "Love yourself", "author": "Hema"}
+]
+for book in books:
+    print(f"{book['title']} by {book['author']}")
+
+**A for loop runs once for each item in a collection. It knows exactly how many times it'll run — one per item. ("For each song, print it.")
+
+**A while loop runs as long as a condition stays true. It doesn't count items — it keeps going until something changes. ("Keep going while I still have battery left.")
+
+So for = "do this for every item." while = "keep doing this until a condition becomes false."
+
+
+Use for when you know the collection or count ("for each of these 4 songs").
+Use while when you don't know how many times — you loop until something happens ("keep asking the user for input until they type 'quit'", "keep retrying the API until it succeeds"). This "keep going until X" pattern is common in real AI apps.
