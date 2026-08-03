@@ -204,3 +204,31 @@ So for = "do this for every item." while = "keep doing this until a condition be
 
 Use for when you know the collection or count ("for each of these 4 songs").
 Use while when you don't know how many times — you loop until something happens ("keep asking the user for input until they type 'quit'", "keep retrying the API until it succeeds"). This "keep going until X" pattern is common in real AI apps.
+
+Day-8: 03-08-2026
+Learnings:
+
+Functions:
+A function is a defined, reusable code to do task everytime you call it.
+eg: like add a recipe to your cook book and refering it back whenever you are making that dish.
+
+def greet(name):
+    print(f"My name is {name}")
+greet("hema")
+
+you can add two variables while defining
+
+def greet(name,age):
+    print(f"My name is {name}, I am {age} years old")
+greet("Hema", 28)
+
+but there is a draw back in this print. In python, when you say print it shows output on the screen it will not store the data, so for it to store the data and reuse it multiple time we use return.
+
+def add(a,b):
+    return a + b
+result = add(5,3)
+double = add(result, result)
+print(double) --- now this gives a output of result + result so here using return you defined to add 5 + 3 as once and reuse it to double it
+
+The major difference between print and return in a function is print just shows the output on the screen and boom that it's gone. Whereas return, it hands a value back to your code, and you can store it under variable and reuse it multiple times whenever you want. So a function that only prints can't give you anything to work it. The function with the return gives you a usable result multiple times. So that's the reason it is very important for building real programs.
+
