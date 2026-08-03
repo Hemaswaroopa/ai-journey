@@ -1,0 +1,24 @@
+THE EXPENSE TRACKER
+
+Purpose: Tracks expenses and analyzes spending
+
+Scope: The scope of expense tracker should let an user:
+Add an expense- record what an user has spent, how much, category(food, transport,etc)
+View all expenses- list everything which has been recorded.
+See the total- how much overall spent
+See a category breakdown- how much category
+
+How should data be shaped:
+It should be shaped in a list of dictonaries format
+
+expenses = [
+    {"description": "Lunch", "amount": 250, "category": "Food"},
+    {"description": "Uber", "amount": 180, "category": "Transport"}
+]
+
+How should the code be organized:
+Each feature becomes its own function
+add_expense(...) → adds one expense to the list
+view_expenses(...) → prints them all (a loop!)
+get_total(...) → returns the sum (a loop + counter/accumulator!)
+category_breakdown(...) → totals per category (a loop + dictionary!)
